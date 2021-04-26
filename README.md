@@ -18,7 +18,7 @@ Para poner en funcionamiento la respectiva prueba, es necesario seguir los sigui
  * Seleccionar la opción administrador de paquetes Nuget
  * Seleccionar consola del administrador de paquetes
  * una vez se abra la pestaña dentro de visual studio validar que en la pestaña este las palabras PM>
- * escribir en la consola el comnado Update-Database -Verbosa.
+ * escribir en la consola el comnado Update-Database -Verbose.
  * esperar a que la consola compile la solución y ejecute la migración.
  * por último arraca el proyecto en iniciar, ya que esta configurado para que arranque todos los proyectos a la vez.
  
