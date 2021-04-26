@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/all.css" />
+
+    @RenderSection("style", false)
+</head>
+<body>
+    <div class="principalCard">
+        <div class="principalCard-header">
+            <h3 class="principalCard-title">@ViewBag.Title</h3>
+        </div>
+        <nav class="principalCard-options">
+            <ul class="principalCard-ul">
+                <li class="principalCard-li">
+                    <a class="principalCard-link" href="/Home/Index">Editorial</a>
+                </li>
+                <li class="principalCard-li">
+                    <a class="principalCard-link" href="/Book/Index">Libros</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="principalCard-body">
+            @RenderBody()
+        </div>
+    </div>
+
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </environment>
+    @RenderSection("scripts", false)
+</body>
+</html>

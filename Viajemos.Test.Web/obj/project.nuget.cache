@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "N3iWu4V3Z3+V4Mjd8cBAgF2wTjALOJHS+7Kq79xZlA7JKYEHRB+Ljbq7/RPTFRu/EqbJY70ahJDsIS0+moE3WA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Web\\Viajemos.Test.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ebordas\\.nuget\\packages\\buildwebcompiler\\1.12.405\\buildwebcompiler.1.12.405.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.4\\fluentvalidation.aspnetcore.10.0.4.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.0.4\\fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\ligershark.weboptimizer.core\\3.0.304\\ligershark.weboptimizer.core.3.0.304.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\ligershark.weboptimizer.sass\\3.0.43-beta\\ligershark.weboptimizer.sass.3.0.43-beta.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\nuglify\\1.6.4\\nuglify.1.6.4.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\sharpscss\\2.0.0\\sharpscss.2.0.0.nupkg.sha512",
+    "C:\\Users\\ebordas\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

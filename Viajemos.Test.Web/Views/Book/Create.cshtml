@@ -1,0 +1,146 @@
+﻿@model BookModel
+@{
+    ViewData["Title"] = "Crear libro";
+}
+
+
+<div class="error" style="display:none;">
+
+</div>
+
+
+<div class="createCard">
+    <div class="createCard-body">
+        <form id="formBook" class="createCard-form">
+            <div class="form-section">
+                <div class="col-lg-3">
+                    <label>ISBN: </label>
+                </div>
+                <div class="col-lg-9">
+                    <input class="form-control" asp-for="ISBN" type="number" name="ISBN" />
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="col-lg-3">
+                    <label for="title">Título: </label>
+                </div>
+                <div class="col-lg-9">
+                    <input class="form-control" asp-for="Title" type="text" name="Title" />
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="col-lg-3">
+                    <label for="sypnosis">Sipnosis: </label>
+                </div>
+                <div class="col-lg-9">
+                    <textarea class="form-control" asp-for="Sypnosis" name="Sypnosis" rows="6"></textarea>
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="col-lg-3">
+                    <label>Editorial: </label>
+                </div>
+                <div class="col-lg-9">
+                    <select class="form-control editorial" asp-items="@ViewBag.Editorial">
+                        <option>Seleccione</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="col-lg-3">
+                    <label>Número de páginas: </label>
+                </div>
+                <div class="col-lg-9">
+                    <input class="form-control" asp-for="NumberPages" type="number" name="NumberPages" />
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="col-lg-3">
+                    <label>Authors: </label>
+                </div>
+                <div class="col-lg-9">
+                    <div class="add-authors"><button type="button" class="form-button--primary" onclick="clickOnDelete()">Agregar autores</button></div>
+                    <table class="section-grid authors">
+                        <thead>
+                            <tr>
+                                <td>
+                                    Nombre
+                                </td>
+                                <td>
+                                    Apellido
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <button type="submit" class="form-button--success">Guardar</button>
+            <button type="button" class="form-button--cancel">Cancelar</button>
+        </form>
+    </div>
+</div>
+
+<div class="createModal" tabindex="-1" role="dialog">
+    <div class="createModal-dialog" role="document">
+        <div class="createModal-content">
+            <div class="createModal-header">
+                <h5 class="createModal-title">Agregar autor</h5>
+            </div>
+            <div class="createModal-Body">
+                <div class="error" style="display:none;">
+                    <label class="error-text"></label>
+                </div>
+                <div class="success" style="display:none">
+                    <label class="success-text"></label>
+                </div>
+                <div class="form-section">
+                    <div class="col-lg-12">
+                        <label>Seleccione un autor si no aparece dé clic en el botón nuevo para agregar</label>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="col-lg-3">
+                        <label>Autor: </label>
+                    </div>
+                    <div class="col-lg-9">
+                        <select class="form-control" name="selectAuthors" id="selectAuthors">
+                        </select>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="col-lg-12">
+                        <button class="form-button--primary" id="cleanSelect">Crear nuevo</button>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="col-lg-3">
+                        <label for="Name">Nombre: </label>
+                    </div>
+                    <div class="col-lg-9">
+                        <input class="form-control" type="hidden" name="id" id="id" />
+                        <input class="form-control" type="text" name="name" id="name" disabled />
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="col-lg-3">
+                        <label>Apellido: </label>
+                    </div>
+                    <div class="col-lg-9">
+                        <input class="form-control" type="text" name="lastname" id="lastname" disabled />
+                    </div>
+                </div>
+
+            </div>
+            <div class="createModal-footer">
+                <button type="button" id="addAuthor" class="form-button--success">Guardar</button>
+                <button type="button" id="cancelModal" class="form-button--cancel">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript" src="~/js/bookCreate.js"></script>
+}

@@ -1,0 +1,35 @@
+﻿@import '../lib/bootstrap/scss/bootstrap.scss';
+
+.createCard{
+    @extend .card;
+    width:100%;
+}
+
+.CreateCard-header {
+    @extend .card-header;
+}
+.CreateCard-body {
+    @extend .card-body;
+}
+
+.CreateCard-form{
+    width:100%;
+}
+
+.form-section{
+    @extend .form-group;
+}
+
+.form-button--primary {
+    @extend .btn;
+    @extend .btn-outline-primary;
+}
+.form-button--success {
+    @extend .btn;
+    @extend .btn-outline-success;
+}
+
+.form-button--cancel {
+    @extend .btn;
+    @extend .btn-outline-danger;
+}

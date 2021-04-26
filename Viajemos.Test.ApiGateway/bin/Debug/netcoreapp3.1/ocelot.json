@@ -1,0 +1,43 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/editorials",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49430
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/editorials",
+      "UpstreamHttpMethod": [ "Get", "Post"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/books",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49430
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/books",
+      "UpstreamHttpMethod": [ "Get","Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/authors",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49430
+        }
+      ],
+      "UpstreamPathTemplate": "/api/v1/authors",
+      "UpstreamHttpMethod": [ "get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5001"
+  }
+}

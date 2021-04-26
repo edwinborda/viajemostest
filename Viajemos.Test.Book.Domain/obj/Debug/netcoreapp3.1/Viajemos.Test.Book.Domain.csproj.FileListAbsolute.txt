@@ -1,0 +1,8 @@
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Book.Domain\bin\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.deps.json
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Book.Domain\bin\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.dll
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Book.Domain\bin\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.pdb
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Book.Domain\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.AssemblyInfoInputs.cache
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Book.Domain\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.AssemblyInfo.cs
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Book.Domain\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Book.Domain\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.dll
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Book.Domain\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.pdb

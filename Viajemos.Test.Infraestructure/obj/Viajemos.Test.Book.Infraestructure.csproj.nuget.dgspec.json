@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Infraestructure\\Viajemos.Test.Book.Infraestructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Book.Domain\\Viajemos.Test.Book.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Book.Domain\\Viajemos.Test.Book.Domain.csproj",
+        "projectName": "Viajemos.Test.Book.Domain",
+        "projectPath": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Book.Domain\\Viajemos.Test.Book.Domain.csproj",
+        "packagesPath": "C:\\Users\\ebordas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Book.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ebordas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/evertecinc/Evertec.NET.Cross/_packaging/Evertec.Net.Cross/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Infraestructure\\Viajemos.Test.Book.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Infraestructure\\Viajemos.Test.Book.Infraestructure.csproj",
+        "projectName": "Viajemos.Test.Book.Infraestructure",
+        "projectPath": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Infraestructure\\Viajemos.Test.Book.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\ebordas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ebordas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/evertecinc/Evertec.NET.Cross/_packaging/Evertec.Net.Cross/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Book.Domain\\Viajemos.Test.Book.Domain.csproj": {
+                "projectPath": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Book.Domain\\Viajemos.Test.Book.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

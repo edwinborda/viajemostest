@@ -1,0 +1,53 @@
+﻿@model IEnumerable<BookModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="section">
+    <div class="section-buttongroup">
+        <div class="section-button">
+            <button type="button" class="section-btnNew">Agregar nuevo libro</button>
+        </div>
+    </div>
+    @if(Model.Any())
+    {
+    <table class="section-grid">
+        <thead>
+            <tr>
+                <th>ISBN</th>
+                <th>Titulo</th>
+                <th>Sipnosis</th>
+                <th>No. de Páginas</th>
+                <th>Editorial</th>
+                <th>Autores</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+                {
+            <tr>
+                <td>@item.ISBN</td>
+                <td>@item.Title</td>
+                <td>@item.Sypnosis</td>
+                <td>@item.NumberPages</td>
+                <td>@item.Editorial.Name</td>
+                <td>@String.Join(',', item.Authors.Select(it => $" {it.Name} {it.LastName} "))</td>
+            </tr>
+                }
+
+        </tbody>
+    </table>
+    }
+    else
+    {
+        <div class="warning">
+            No hay libros creados, por favor de clic en agregar libros.
+        </div>
+    }
+
+</div>
+
+@section scripts {
+    <script type="text/javascript" src="~/js/bookIndex.js"></script>
+}

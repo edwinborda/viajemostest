@@ -1,0 +1,94 @@
+﻿@import "../lib/bootstrap/scss/bootstrap.scss";
+
+body {
+}
+
+.principalCard{
+    @extend .card;
+    width: 100%;
+    font-size: 14px;
+}
+
+.principalCard-header {
+    @extend .card-header;
+}
+
+.principalCard-options {
+    @extend .navbar;
+    @extend .navbar-expand-lg;
+    @extend .nav-link;
+    @extend .bg-light;
+}
+
+.principalCard-body {
+    @extend .card-body;
+}
+
+.principalCard-ul {
+    @extend .navbar-nav;
+}
+
+.principalCard-li {
+    @extend .nav-item;
+}
+
+.principalCard-link {
+    @extend .nav-link;
+}
+
+.section-grid {
+    @extend .table;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.section-btnNew {
+    @extend .btn;
+    @extend .btn-outline-dark;
+}
+
+.principalCard-title {
+    @extend .card-title;
+}
+
+.error {
+    @extend .alert; 
+    @extend .alert-danger;
+}
+
+.success {
+    @extend .alert;
+    @extend .alert-success;
+}
+.warning {
+    @extend .alert;
+    @extend .alert-warning;
+}
+
+.createModal {
+    @extend .modal;
+}
+
+.createModal-dialog {
+    @extend .modal-dialog;
+}
+
+.createModal-header{
+    @extend .modal-header;
+}
+
+.createModal-content {
+    @extend .modal-content;
+}
+.createModal-title {
+    @extend .modal-title;
+}
+
+.createModal-footer {
+    @extend .modal-footer;
+}
+
+.button-delete {
+    @extend .btn;
+    @extend .btn-outline-danger;
+}

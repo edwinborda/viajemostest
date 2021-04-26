@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Viajemos.Test.Book.API</name>
+    </assembly>
+    <members>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.AuthorModel.Id">
+            <summary>
+            Author's ID
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.AuthorModel.Name">
+            <summary>
+            Author's name
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.AuthorModel.LastName">
+            <summary>
+            Author's lastname
+            </summary>
+        </member>
+        <member name="T:Viajemos.Test.Book.API.Application.Models.BookModel">
+            <summary>
+            Book model
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.BookModel.ISBN">
+            <summary>
+            Book Key 
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.BookModel.Title">
+            <summary>
+            Book's name
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.BookModel.Sypnosis">
+            <summary>
+            Book's Sypnosis
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.BookModel.NumberPages">
+            <summary>
+            Book's number pages
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.BookModel.Authors">
+            <summary>
+            Book's authors
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.BookModel.Editorial">
+            <summary>
+            Book's editorial
+            </summary>
+        </member>
+        <member name="T:Viajemos.Test.Book.API.Application.Models.EditorialModel">
+            <summary>
+            Editorial Model
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.EditorialModel.Id">
+            <summary>
+            Editorial ID
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.EditorialModel.Name">
+            <summary>
+            Editorial Name
+            </summary>
+        </member>
+        <member name="P:Viajemos.Test.Book.API.Application.Models.EditorialModel.Campus">
+            <summary>
+            Editorial campus
+            </summary>
+        </member>
+        <member name="T:Viajemos.Test.Book.API.Controllers.AuthorController">
+            <summary>
+            author's Controller
+            </summary>
+        </member>
+        <member name="M:Viajemos.Test.Book.API.Controllers.AuthorController.#ctor(Viajemos.Test.Book.API.Infraestructure.IAuthorService)">
+            <summary>
+            Initializes controllers
+            </summary>
+            <param name="authorService"></param>
+        </member>
+        <member name="M:Viajemos.Test.Book.API.Controllers.AuthorController.Get">
+            <summary>
+            Get a author list
+            </summary>
+            <response code="200">Returns a author's list</response>
+            <response code="404">Not found a author list</response>
+            <response code="500">Internal server error and it can't get author's list </response>
+            <returns>A paged list of results</returns>
+        </member>
+        <member name="T:Viajemos.Test.Book.API.Controllers.BookController">
+            <summary>
+            Book's api
+            </summary>
+        </member>
+        <member name="M:Viajemos.Test.Book.API.Controllers.BookController.#ctor(Viajemos.Test.Book.API.Infraestructure.IBookService,AutoMapper.IMapper)">
+            <summary>
+            Initialize controller
+            </summary>
+            <param name="bookService"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Viajemos.Test.Book.API.Controllers.BookController.Get">
+            <summary>
+            Gets book's list
+            </summary>
+            <response code="200">Returns book's list</response>
+            <response code="404">Not found book's list</response>
+            <response code="500">Internal server error and it can't get book's list </response>
+            <returns>A paged list of results</returns>
+        </member>
+        <member name="M:Viajemos.Test.Book.API.Controllers.BookController.Post(Viajemos.Test.Book.API.Application.Models.BookModel)">
+            <summary>
+            Add a new book
+            </summary>
+            <param name="model">Book Model</param>
+            <response code="200">Returns that book created on success</response>
+            <response code="400">Invalid data sent</response>
+            <response code="500">Internal server error and it can't create book </response>
+            <returns>A paged list of results</returns>
+        </member>
+        <member name="T:Viajemos.Test.Book.API.Controllers.EditorialController">
+            <summary>
+            Editorial controller
+            </summary>
+        </member>
+        <member name="M:Viajemos.Test.Book.API.Controllers.EditorialController.#ctor(Viajemos.Test.Book.API.Infraestructure.IEditorialService)">
+            <summary>
+            Initializes editorial
+            </summary>
+            <param name="editorialService"></param>
+        </member>
+        <member name="M:Viajemos.Test.Book.API.Controllers.EditorialController.Get">
+            <summary>
+            Get all editorial list
+            </summary>
+            <response code="200">Returns a Editorial's list</response>
+            <response code="404">Not found a Editorial list</response>
+            <response code="500">Internal server error and it can't get editorial's list </response>
+            <returns>A paged list of results</returns>
+        </member>
+        <member name="M:Viajemos.Test.Book.API.Controllers.EditorialController.Post(Viajemos.Test.Book.API.Application.Models.EditorialModel)">
+            <summary>
+            Add a editorial register
+            </summary>
+            <param name="model"></param>
+            <response code="200">Returns that Editorial created on Successs</response>
+            <response code="40o">Invalid data Send </response>
+            <response code="500">Internal server error and it can't add editorial</response>
+            <returns>A paged list of results</returns>
+        </member>
+    </members>
+</doc>

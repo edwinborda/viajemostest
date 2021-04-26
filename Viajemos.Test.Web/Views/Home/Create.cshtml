@@ -1,0 +1,40 @@
+﻿@model EditorialModel
+@{
+    ViewData["Title"] = "Crear Editorial";
+}
+
+@if (ViewData["Error"] != null)
+{
+<div class="error">
+    @ViewData["Error"]
+</div>
+}
+
+<div class="CreateCard">
+    <div class="CreateCard-body">
+        <form class="CreateCard-form" action="/Home/Create" method="post">
+            <div class="form-section">
+                <div class="col-lg-3">
+                    <label>Nombre: </label>
+                </div>
+                <div class="col-lg-9">
+                    <input class="form-control" asp-for="Name" type="text" name="name" />
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="col-lg-3">
+                    <label>Sede: </label>
+                </div>
+                <div class="col-lg-9">
+                    <input class="form-control" asp-for="Campus" type="text" name="campus" />
+                </div>
+            </div>
+            <button type="submit" class="form-button--success">Guardar</button>
+            <button type="button" class="form-button--cancel">Cancelar</button>
+        </form>
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript" src="~/js/homeCreate.js"></script>
+}

@@ -1,0 +1,12 @@
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\bin\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.dll
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.csprojAssemblyReference.cache
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.AssemblyInfo.cs
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\bin\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.deps.json
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\bin\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.dll
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\bin\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.pdb
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\bin\Debug\netcoreapp3.1\Viajemos.Test.Book.Domain.pdb
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.csproj.CopyComplete
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.dll
+C:\Users\ebordas\source\repos\Viajemos.Test\Viajemos.Test.Infraestructure\obj\Debug\netcoreapp3.1\Viajemos.Test.Book.Infraestructure.pdb

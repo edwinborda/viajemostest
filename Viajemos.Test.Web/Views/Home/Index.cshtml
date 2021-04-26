@@ -1,0 +1,34 @@
+﻿@model IEnumerable<EditorialModel>
+@{
+    ViewData["Title"] = "Editorial";
+}
+
+<div class="section">
+    <div class="section-buttongroup">
+        <div class="section-button">
+            <button type="button" class="section-btnNew">Agregar nueva editorial</button>
+        </div>
+    </div>
+    <table class="section-grid">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Sede</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Campus</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section scripts {
+    <script type="text/javascript" src="~/js/homeIndex.js"></script>
+}

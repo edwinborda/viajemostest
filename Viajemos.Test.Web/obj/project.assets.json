@@ -1,0 +1,430 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BuildWebCompiler/1.12.405": {
+        "type": "package",
+        "build": {
+          "build/BuildWebCompiler.targets": {}
+        }
+      },
+      "FluentValidation/10.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.AspNetCore/10.0.4": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.0.4",
+          "FluentValidation.DependencyInjectionExtensions": "10.0.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/10.0.4": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.0.4",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
+      "LigerShark.WebOptimizer.Core/3.0.304": {
+        "type": "package",
+        "dependencies": {
+          "NUglify": "1.6.4",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/WebOptimizer.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/WebOptimizer.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/LigerShark.WebOptimizer.Core.props": {},
+          "build/LigerShark.WebOptimizer.Core.targets": {}
+        }
+      },
+      "LigerShark.WebOptimizer.Sass/3.0.43-beta": {
+        "type": "package",
+        "dependencies": {
+          "LigerShark.WebOptimizer.Core": "3.0.276",
+          "SharpScss": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/WebOptimizer.Sass.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/WebOptimizer.Sass.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "NUglify/1.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NUglify.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NUglify.dll": {}
+        }
+      },
+      "RestSharp/106.11.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "SharpScss/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SharpScss.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpScss.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libsass.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libsass.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libsass.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libsass.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Text.Json/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BuildWebCompiler/1.12.405": {
+      "sha512": "1l1RK0jV+5QjJM22J5IGHm/EFaB3JN0WorKnLLP6HRnnf5H4sU4IBdBnMwN1OrVmww/3ir8fhbV0ZNGX6Uqn5w==",
+      "type": "package",
+      "path": "buildwebcompiler/1.12.405",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/BuildWebCompiler.targets",
+        "buildwebcompiler.1.12.405.nupkg.sha512",
+        "buildwebcompiler.nuspec",
+        "tools/net46/NUglify.dll",
+        "tools/net46/Newtonsoft.Json.dll",
+        "tools/net46/WebCompiler.exe",
+        "tools/netcoreapp2.0/NUglify.dll",
+        "tools/netcoreapp2.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.0/WebCompiler.dll",
+        "tools/netcoreapp2.0/WebCompiler.runtimeconfig.json",
+        "tools/netstandard2.0/NUglify.dll",
+        "tools/netstandard2.0/Newtonsoft.Json.dll",
+        "tools/netstandard2.0/WebCompiler.dll"
+      ]
+    },
+    "FluentValidation/10.0.4": {
+      "sha512": "LqEYHuF5gXBJzG9/aUQS50TJP5cZgh/twvPLV7iTtFFGF6isGBkNXOhr9VwmSjlFRIVOqcMtkGuHwuPbU+XpoQ==",
+      "type": "package",
+      "path": "fluentvalidation/10.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.0.4.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/10.0.4": {
+      "sha512": "RMBkx6qPeWPci2dtE43hcp6MpWPw3pTvcnYymJdLdhyCDcz0q4XHKqaArqyLpQPlVFEEsMMKclVlMtABVUh2Sw==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/10.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.10.0.4.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/10.0.4": {
+      "sha512": "Er3mswiJ8wM0mXoLyKZ16pNQReqeqtq8mN0vJOSgtMfhKql1PlZndjFHNL6XsSJTEkHOymX4uOv0CUVA8Gq9Lw==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "LigerShark.WebOptimizer.Core/3.0.304": {
+      "sha512": "fAeQMmjgVWH5N3tuwYTphSxY4gOmNM/G2/uCCqjxvwIF2IzI+LW/TZ80xdQi7++xkELlsfFb5sWis+5ExVR0hA==",
+      "type": "package",
+      "path": "ligershark.weboptimizer.core/3.0.304",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LigerShark.WebOptimizer.Core.props",
+        "build/LigerShark.WebOptimizer.Core.targets",
+        "lib/netcoreapp3.0/WebOptimizer.Core.dll",
+        "lib/netcoreapp3.0/WebOptimizer.Core.xml",
+        "ligershark.weboptimizer.core.3.0.304.nupkg.sha512",
+        "ligershark.weboptimizer.core.nuspec"
+      ]
+    },
+    "LigerShark.WebOptimizer.Sass/3.0.43-beta": {
+      "sha512": "KWcYgI4CzzFWEMG8xOkJcepkdyp5Ifspf17T3qaAyuHRsQzFdd5rOYXm+BVymKC4OiD+0uZ+xjz1DcVS9Du/OQ==",
+      "type": "package",
+      "path": "ligershark.weboptimizer.sass/3.0.43-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/WebOptimizer.Sass.dll",
+        "lib/netcoreapp3.0/WebOptimizer.Sass.xml",
+        "ligershark.weboptimizer.sass.3.0.43-beta.nupkg.sha512",
+        "ligershark.weboptimizer.sass.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+      "sha512": "8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "NUglify/1.6.4": {
+      "sha512": "cGVw1LQKPCX/ax+ACykKAaWRXnUfCxlrbpb9PzOLYSVaL+yKymTuhdl0DdNoDHFUjeBjqOladQJcpFG9WY2/Fw==",
+      "type": "package",
+      "path": "nuglify/1.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/NUglify.dll",
+        "lib/net35/NUglify.xml",
+        "lib/net40/NUglify.dll",
+        "lib/net40/NUglify.xml",
+        "lib/netstandard1.3/NUglify.dll",
+        "lib/netstandard1.3/NUglify.xml",
+        "lib/netstandard2.0/NUglify.dll",
+        "lib/netstandard2.0/NUglify.xml",
+        "nuglify.1.6.4.nupkg.sha512",
+        "nuglify.nuspec"
+      ]
+    },
+    "RestSharp/106.11.7": {
+      "sha512": "NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "type": "package",
+      "path": "restsharp/106.11.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.11.7.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
+    "SharpScss/2.0.0": {
+      "sha512": "+5jnxm6neBhRcNaQB5S4mqlo4iB4Bvmho2UVTKEKp3uBuouJTq9WfAQor0UmIDaVIVBhXbBFey55Kk4izQ5RBQ==",
+      "type": "package",
+      "path": "sharpscss/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SharpScss.dll",
+        "lib/netstandard2.0/SharpScss.xml",
+        "runtimes/linux-x64/native/libsass.so",
+        "runtimes/osx-x64/native/libsass.dylib",
+        "runtimes/win-x64/native/libsass.dll",
+        "runtimes/win-x86/native/libsass.dll",
+        "sharpscss.2.0.0.nupkg.sha512",
+        "sharpscss.nuspec"
+      ]
+    },
+    "System.Text.Json/4.7.2": {
+      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "type": "package",
+      "path": "system.text.json/4.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.4.7.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BuildWebCompiler >= 1.12.405",
+      "FluentValidation.AspNetCore >= 10.0.4",
+      "LigerShark.WebOptimizer.Core >= 3.0.304",
+      "LigerShark.WebOptimizer.Sass >= 3.0.43-beta",
+      "RestSharp >= 106.11.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ebordas\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Web\\Viajemos.Test.Web.csproj",
+      "projectName": "Viajemos.Test.Web",
+      "projectPath": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Web\\Viajemos.Test.Web.csproj",
+      "packagesPath": "C:\\Users\\ebordas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ebordas\\source\\repos\\Viajemos.Test\\Viajemos.Test.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ebordas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/evertecinc/Evertec.NET.Cross/_packaging/Evertec.Net.Cross/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "BuildWebCompiler": {
+            "target": "Package",
+            "version": "[1.12.405, )"
+          },
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[10.0.4, )"
+          },
+          "LigerShark.WebOptimizer.Core": {
+            "target": "Package",
+            "version": "[3.0.304, )"
+          },
+          "LigerShark.WebOptimizer.Sass": {
+            "target": "Package",
+            "version": "[3.0.43-beta, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.11.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
