@@ -1,26 +1,26 @@
-#PRUEBA DE CONOCIMIENTO VIAJEMOS
+# PRUEBA DE CONOCIMIENTO VIAJEMOS
 
 La siguiente prueba se encuentra desarrollada en una arquitectura orientada a microservicios con un frontend hecho 
 en ASP MVC net core y los microservicios en net core 3.1
 
-Existe un microservicio encargado de la parte de administraci髇 de los respectivos dominios de la aplicaci髇 (autor, libros y editorial)
+Existe un microservicio encargado de la parte de administraci贸n de los respectivos dominios de la aplicaci贸n (autor, libros y editorial)
 
-Existe aparte un apigateway con ocelot que se encarga de gestionar las peticiones al microservicio y por ahora no maneja alg鷑 tipo de seguridad
+Existe aparte un apigateway con ocelot que se encarga de gestionar las peticiones al microservicio y por ahora no maneja alg煤n tipo de seguridad
 
 
 Para poner en funcionamiento la respectiva prueba, es necesario seguir los siguientes pasos:
- * Abrir la soluci髇 en visual studio 2019.
+ * Abrir la soluci贸n en visual studio 2019.
  * Ir al proyecto Viajemos.Test.Books.API
- * Ir a la secci髇 de appsettings.json
+ * Ir a la secci贸n de appsettings.json
  * dentro del archivo .json ubicar la llave "connectionStrings"
- * dentro de esa llave modificar el valor de la llave "conn" con los datos de la cadena de conexi髇 del servidor donde se va a correr la bd. (actualizar las llaves de server, user y password)
- * Ir a la secci髇 de herramientas
- * Seleccionar la opci髇 administrador de paquetes Nuget
+ * dentro de esa llave modificar el valor de la llave "conn" con los datos de la cadena de conexi贸n del servidor donde se va a correr la bd. (actualizar las llaves de server, user y password)
+ * Ir a la secci贸n de herramientas
+ * Seleccionar la opci贸n administrador de paquetes Nuget
  * Seleccionar consola del administrador de paquetes
- * una vez se abra la pesta馻 dentro de visual studio validar que en la pesta馻 este las palabras PM>
+ * una vez se abra la pesta帽a dentro de visual studio validar que en la pesta帽a este las palabras PM>
  * escribir en la consola el comnado Update-Database -Verbosa.
- * esperar a que la consola compile la soluci髇 y ejecute la migraci髇.
- * por 鷏timo arraca el proyecto en iniciar, ya que esta configurado para que arranque todos los proyectos a la vez.
+ * esperar a que la consola compile la soluci贸n y ejecute la migraci贸n.
+ * por 煤ltimo arraca el proyecto en iniciar, ya que esta configurado para que arranque todos los proyectos a la vez.
  
  
  Muchas gracias por la oportunidad. Muchos exitos.
