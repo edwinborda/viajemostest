@@ -21,7 +21,8 @@ Para poner en funcionamiento la respectiva prueba, es necesario seguir los sigui
  * escribir en la consola el comnado Update-Database -Verbose.
  * esperar a que la consola compile la solución y ejecute la migración.
  * por último arraca el proyecto en iniciar, ya que esta configurado para que arranque todos los proyectos a la vez.
- 
+
+ please add a new feature ..
  
  Muchas gracias por la oportunidad. Muchos exitos.
  
