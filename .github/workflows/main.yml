@@ -1,0 +1,15 @@
+name: GitHub Actions Demo with AI
+
+on:
+  push:
+    branches: [ "master"]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Run a diagnostic test
+        run: echo "Hello World! The workflow is working perfectly."
